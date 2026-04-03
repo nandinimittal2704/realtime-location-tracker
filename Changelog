@@ -1,0 +1,50 @@
+# Changelog
+
+## Version Release
+
+### **Version 4.2 (Latest)** – **UI Overhaul & Broadcast Features**
+
+- **🎨 Modern "Tech Blue" Theme:** A complete visual redesign with vibrant blue aesthetics, modern typography, and glassmorphism effects.
+- **📢 Broadcast Call Request:** A "Megaphone" feature allows users to instantly invite everyone in the room to join a voice call.
+- ** Smart Chat & Navigation:** Click on any chat message to instantly focus and zoom the map on the sender's location.
+- **👤 Enhanced Profile Management:** "Edit Profile" is now fully accessible on both Desktop and Mobile devices.
+- **🌍 IP Geolocation Display:** Device info popups now display the connected IP address for better tracking context.
+- **🐧 Linux Support:** Improved detection and icon mapping for Linux-based devices.
+
+---
+
+### **Version 4.1** – **Organization Rooms & Optimization**
+
+- **🏢 Organization/Fleet Rooms:** Users can now join specific "Organization IDs" to create private fleets. Only users in the same organization can see each other and chat.
+- **🔋 Battery Saver Protocol:** Intelligent motion detection slows down GPS updates when the device is stationary, significantly extending battery life.
+- **🗺️ Map Customization:** New Layer Control allows switching between OpenStreetMap, OpenTopoMap, Satellite (Esri), and Dark Mode.
+- **⚡ Bandwidth Optimization:** Room isolation prevents the $N^2$ scaling issue by limiting data broadcasts to room members only.
+
+---
+
+### **Version 4.0** – **SOS Emergency & PWA Support**
+
+- **🆘 SOS Emergency System:** One-touch emergency alerts with comprehensive device and location data
+- **📱 PWA Support:** Full Progressive Web App with offline capabilities
+- **🔔 Enhanced Notifications:** Audio alerts and browser push notifications
+- **🔊 Enhanced Audio Communication (WebRTC):** Real-time voice communication among connected devices
+- **📍 IP Geolocation:** Additional location data from IP address
+- **🎨 Modern UI:** Beautiful, responsive modal for SOS management
+
+
+---
+
+### **Version 3.0** – **Advanced Features & Performance Upgrades**
+
+- **Enhanced Interactive Popups:** Now includes real-time device details such as battery status, connection type, and more.
+- **Activity Logs:** A comprehensive log system that tracks server notifications, connection events, and disconnections.
+- **Live Chat Messaging:** Instant text communication between connected devices via WebSockets.
+
+---
+
+### **Version 2.0** – **Major Enhancements & New Features**
+
+- **Real-Time Tracking:** Continuously updates device locations on the map
+- **Smart Device Identification:** Automatically detects and categorizes devices
+- **Device Connection Panel:** Displays a dynamic list of all connected devices
+- **Audio Communication:** Real-time voice communication between connected devices using WebRTC
