@@ -213,28 +213,10 @@ docker run -p 3007:3007 --name tracker -d realtime-location-tracker
 docker-compose up -d
 ```
 
-## Contact
 
-- **Email:** [farhanstack.dev@gmail.com](mailto:farhanstack.dev@gmail.com)
-- **GitHub:** [mahmud-r-farhan](https://github.com/mahmud-r-farhan)
 
 ---
 
-## FAQ
-
-**Q: How accurate is the GPS?**
-A: Depends on device hardware (typically ±5-50 meters).
-
-**Q: Can I use custom map providers?**
-A: Yes! Use the new Layer Control to switch between default maps, or edit `map.js` to add more.
-
-**Q: Is the SOS feature secure?**
-A: SOS alerts are broadcast to all connected users only. Data is sanitized server-side.
-
-**Q: Does the app work offline?**
-A: Yes! The PWA caches assets and shows an offline page when connectivity is lost.
-
----
 
 ## Troubleshooting
 
@@ -246,6 +228,6 @@ A: Yes! The PWA caches assets and shows an offline page when connectivity is los
 
 ---
 
-Star this project if you find it helpful! ⭐
 
-Checkout: https://github.com/mahmud-js/realtime-tracker (Golang powered!)
+
+
