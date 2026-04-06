@@ -8,11 +8,11 @@ const socketIo = require("socket.io");
 const connectDB = require("./config/db");
 
 const app = express();
+app.set('trust proxy', 1);
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
     origin: "*",
-    methods: ["GET", "POST"],
   },
 });
 
